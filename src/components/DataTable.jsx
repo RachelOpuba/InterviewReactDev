@@ -63,9 +63,9 @@ function DataTable() {
   }
 
   return (
-    <div className="flex justify-center py-10 w-full ">
+    <div className="flex justify-center py-10 w-full relative overflow-x-auto">
       <div className="w-full max-w-[1320px] mx-auto ">
-        <div className="w-full mx-8 relative overflow-x-auto">
+        <div className="w-full mx-8">
         <div className="w-full flex justify-center">
           <h1 className="text-[#36b3a5] py-5 uppercase font-bold text-xl lg:text-2xl">Vendor Details</h1>
         </div>
